@@ -9,16 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var labelNames: UILabel!
     @IBOutlet var labelProfission: UILabel!
-    
     @IBOutlet var labelNameOne: UILabel!
     @IBOutlet var labelNameTwo: UILabel!
     @IBOutlet var labelProfissionOne: UILabel!
     @IBOutlet var labelProfissionTwo: UILabel!
+    @IBOutlet var labelProfissao: UILabel!
+    @IBOutlet var labelProfissaoDois: UILabel!
     
-    
-    
+    var users = Users()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +25,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func confirmButton(_ sender: UIButton) {
+        
+        labelNameOne.text = users.getNome()
+        labelProfissao.text = users.getProfissional()
+        labelProfissionOne.text = users.getEspecialidade()
+        
+        labelNameTwo.text = users.getNomeDois()
+        labelProfissaoDois.text = users.getProfissionalDois()
+        labelProfissionTwo.text = users.getEspecialidadeDois()
+        
     }
 }
 

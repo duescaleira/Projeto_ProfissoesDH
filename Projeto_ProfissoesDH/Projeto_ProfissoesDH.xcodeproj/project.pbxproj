@@ -16,6 +16,9 @@
 		4311E99826FEA544003ECEC9 /* Projeto_ProfissoesDHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311E99726FEA544003ECEC9 /* Projeto_ProfissoesDHTests.swift */; };
 		4311E9A226FEA544003ECEC9 /* Projeto_ProfissoesDHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311E9A126FEA544003ECEC9 /* Projeto_ProfissoesDHUITests.swift */; };
 		4311E9A426FEA544003ECEC9 /* Projeto_ProfissoesDHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311E9A326FEA544003ECEC9 /* Projeto_ProfissoesDHUITestsLaunchTests.swift */; };
+		434DE4D8270204A100898A4E /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DE4D7270204A100898A4E /* Cadastro.swift */; };
+		434DE4DC270208C500898A4E /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DE4DB270208C500898A4E /* Users.swift */; };
+		434DE4E0270228CE00898A4E /* Funcionario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DE4DF270228CE00898A4E /* Funcionario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4311E99D26FEA544003ECEC9 /* Projeto_ProfissoesDHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projeto_ProfissoesDHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311E9A126FEA544003ECEC9 /* Projeto_ProfissoesDHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_ProfissoesDHUITests.swift; sourceTree = "<group>"; };
 		4311E9A326FEA544003ECEC9 /* Projeto_ProfissoesDHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_ProfissoesDHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		434DE4D7270204A100898A4E /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		434DE4DB270208C500898A4E /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		434DE4DF270228CE00898A4E /* Funcionario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcionario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				4311E98926FEA544003ECEC9 /* Assets.xcassets */,
 				4311E98B26FEA544003ECEC9 /* LaunchScreen.storyboard */,
 				4311E98E26FEA544003ECEC9 /* Info.plist */,
+				434DE4D7270204A100898A4E /* Cadastro.swift */,
+				434DE4DF270228CE00898A4E /* Funcionario.swift */,
+				434DE4DB270208C500898A4E /* Users.swift */,
 			);
 			path = Projeto_ProfissoesDH;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			files = (
 				4311E98526FEA53F003ECEC9 /* ViewController.swift in Sources */,
 				4311E98126FEA53F003ECEC9 /* AppDelegate.swift in Sources */,
+				434DE4D8270204A100898A4E /* Cadastro.swift in Sources */,
+				434DE4DC270208C500898A4E /* Users.swift in Sources */,
+				434DE4E0270228CE00898A4E /* Funcionario.swift in Sources */,
 				4311E98326FEA53F003ECEC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
