@@ -45,6 +45,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="CONFIRM"/>
+                                <connections>
+                                    <action selector="confirmButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJh-mT-3j3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelProfissionOne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oq7-UZ-cbN">
                                 <rect key="frame" x="32" y="306" width="162" height="30"/>
@@ -108,6 +111,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Srx-Ac-8Y4" secondAttribute="trailing" constant="30" id="zNQ-Gh-hyS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelNameOne" destination="OWs-tS-4AY" id="MOy-TJ-iqO"/>
+                        <outlet property="labelNameTwo" destination="TDY-fd-bVs" id="mld-S0-Gla"/>
+                        <outlet property="labelNames" destination="YGb-TW-d3u" id="OCF-fp-jAz"/>
+                        <outlet property="labelProfission" destination="778-7r-M0k" id="qgQ-8F-2b8"/>
+                        <outlet property="labelProfissionOne" destination="oq7-UZ-cbN" id="Kx6-6Q-aaM"/>
+                        <outlet property="labelProfissionTwo" destination="Srx-Ac-8Y4" id="nYv-iT-9iE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
